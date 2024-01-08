@@ -1,32 +1,43 @@
+import html from "./skills/html.svg";
+import css from "./skills/css.svg";
+import js from "./skills/js.svg";
+import react from "./skills/react.svg";
+import scss from "./skills/html.svg";
+
 function App() {
   return (
-    <>
-      <main className="bg-black min-h-screen w-full text-neutral-100 box-border">
-        <div className="flex justify-center items-center h-screen">
-          <h1 className="font-outfit">MY RESUME</h1>
-        </div>
+    <container className="min-h-screen w-full flex">
+      <main className="text-neutral-100">
+        {/* <h1 className="font-outfit">MY RESUME</h1> */}
       </main>
       <aside>
-        <h2 className="visually-hidden">My skills</h2>
+        <h2 className="visually-hidden font-outfit text-2xl font-bold">
+          My skills
+        </h2>
         <ul className="icon-list">
           <li>
-            <img src="" alt="" />
+            <p className="visually-hidden">html</p>
+            <img src={html} alt="" />
           </li>
           <li>
-            <img src="" alt="" />
+            <p className="visually-hidden">css</p>
+            <img src={css} alt="" />
           </li>
           <li>
-            <img src="" alt="" />
+            <p className="visually-hidden">js</p>
+            <img src={js} alt="" />
           </li>
           <li>
-            <img src="" alt="" />
+            <p className="visually-hidden">scss</p>
+            <img src={scss} alt="" />
           </li>
           <li>
-            <img src="" alt="" />
+            <p className="visually-hidden">react</p>
+            <img src={react} alt="" />
           </li>
         </ul>
       </aside>
-    </>
+    </container>
   );
 }
 
