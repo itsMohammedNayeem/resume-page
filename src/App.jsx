@@ -2,7 +2,7 @@ import html from "./skills/html.svg";
 import css from "./skills/css.svg";
 import js from "./skills/js.svg";
 import react from "./skills/react.svg";
-import scss from "./skills/html.svg";
+import scss from "./skills/scss.svg";
 
 function App() {
   return (
