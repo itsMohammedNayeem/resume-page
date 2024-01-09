@@ -66,10 +66,7 @@ function App() {
 
       <aside className="col-start-1 self-stretch">
         <h2 className="visually-hidden">My skills</h2>
-        <ul
-          className="icon-list content-center h-full list-none grid gap-[3rem] ml-[4rem] border-l-[1px] border-orange-500"
-          role="list"
-        >
+        <ul className="icon-list content-center h-full list-none grid gap-[3rem] ml-[4rem] border-l-[1px] border-orange-500">
           <li className="lists-items">
             <p className="visually-hidden">html</p>
             <img src={html} alt="" />

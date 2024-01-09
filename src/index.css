@@ -211,7 +211,8 @@ aside {
     .visually-hidden {
         @apply h-[1px] w-[1px] overflow-hidden absolute whitespace-nowrap border-0 [clip-path:_inset(50%)] [clip:_rect(0_0_0_0)];
     }
+    
 .lists-items {
-    @apply relative after:content-['_'] after:w-[0.5rem] after:aspect-square after:bg-neutral-100 after:absolute;
+    @apply relative pl-[2rem] after:content-['_'] after:w-[0.5rem] after:left-0 after:translate-x-[-50%] after:top-[0.5rem] after:aspect-square after:bg-neutral-100 after:absolute after:rounded-full after:outline-[0.5rem] after:outline after:outline-primary-400;
 }
 }
