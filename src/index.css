@@ -215,4 +215,23 @@ aside {
 .lists-items {
     @apply relative pl-[2rem] after:content-['_'] after:w-[0.5rem] after:left-0 after:translate-x-[-50%] after:top-[0.5rem] after:aspect-square after:bg-neutral-100 after:absolute after:rounded-full after:outline-[0.5rem] after:outline after:outline-primary-400;
 }
+.company {
+    @apply text-primary-200 uppercase font-bold;
+}
+
+.role {
+    @apply text-lg leading-[1.2];
+}
+
+.job-info {
+    @apply flex justify-between items-baseline mb-[1rem];
+}
+
+.year {
+    @apply text-accent-400 font-bold text-sm leading-none tracking-[0.2em];
+}
+
+.job {
+    @apply first:before:text-accent-400 first:before:content-['Current_role'] first:before:absolute first:before:top-0 first:before:left-0 m-0 w-[28.5rem] bg-primary-800 rounded-[0.5rem] p-[2rem];
+}
 }
