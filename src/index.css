@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-img,
+/* img,
 svg,
 picture,
 video {
@@ -27,6 +27,7 @@ video {
     display: block;
 }
 
+*/
 html {
     color-scheme: dark;
 }
@@ -206,9 +207,11 @@ aside {
     background: var(--clr-neutral-100);
 } */
 
-/* @layer components {
+@layer components {
     .visually-hidden {
         @apply h-[1px] w-[1px] overflow-hidden absolute whitespace-nowrap border-0 [clip-path:_inset(50%)] [clip:_rect(0_0_0_0)];
     }
+.lists-items {
+    @apply relative after:content-['_'] after:w-[0.5rem] after:aspect-square after:bg-neutral-100 after:absolute;
 }
-*/
+}
