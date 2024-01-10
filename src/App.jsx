@@ -11,13 +11,16 @@ function App() {
         <p className="eyebrow text-secondary-400 text-sm font-bold uppercase leading-[0.2em] m-0">
           Skills & Experience
         </p>
+
         <h1 className="page-title font-2xl uppercase m-0 leading-[1]">
           My Resume
         </h1>
+
         <p className="intro text-lg max-w-[45ch]">
           As an individual with exquisite taste in the finest companies, I have
           helped represent both client and employer to the highest degree.
         </p>
+
         <div className="job-experience grid grid-flow-col justify-start gap-[1rem] overflow-x-auto relative px-[2rem] after:content-[''] after:w-[50px] after:bg-transparent">
           <div className="job">
             <p className="year">2021</p>
@@ -54,6 +57,7 @@ function App() {
               support team.
             </p>
           </div>
+
           <div className="job">
             <p className="year">2017</p>
             <div className="job-info">
@@ -70,23 +74,28 @@ function App() {
 
       <aside className="col-start-1 self-stretch">
         <h2 className="visually-hidden">My skills</h2>
+
         <ul className="icon-list content-center h-full list-none grid gap-[3rem] ml-[4rem] border-l-[1px] border-primary-300">
           <li className="lists-items">
             <p className="visually-hidden">html</p>
             <img src={html} alt="" />
           </li>
+
           <li className="lists-items">
             <p className="visually-hidden">css</p>
             <img src={css} alt="" />
           </li>
+
           <li className="lists-items">
             <p className="visually-hidden">scss</p>
             <img src={scss} alt="" />
           </li>
+
           <li className="lists-items">
             <p className="visually-hidden">scss</p>
             <img src={js} alt="" />
           </li>
+
           <li className="lists-items">
             <p className="visually-hidden">react</p>
             <img src={react} alt="" />
