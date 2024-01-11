@@ -21,7 +21,7 @@ function App() {
           helped represent both client and employer to the highest degree.
         </p>
 
-        <div className="job-experience grid grid-flow-col justify-start gap-[1rem] overflow-x-auto relative px-[2rem] after:content-[''] after:w-[50px] after:bg-transparent">
+        <div className="job-experience grid grid-flow-col justify-start gap-[1rem] overflow-x-auto relative px-[2rem] after:content-[' '] after:w-[50px] after:bg-transparent">
           <div className="job">
             <p className="year">2021</p>
             <div className="job-info">
